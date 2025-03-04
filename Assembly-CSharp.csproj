@@ -1136,12 +1136,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
@@ -1345,6 +1345,7 @@
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj" />
   </ItemGroup>
